@@ -29,3 +29,14 @@ body {
     color: var(--text-color-secondary);
     background-color: var(--background-color);
 }
+
+a {
+    text-decoration: none;
+    /* the color as 'inherint' means that his color will be the same as your father color */
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
